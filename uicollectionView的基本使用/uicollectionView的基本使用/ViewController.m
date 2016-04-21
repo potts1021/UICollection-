@@ -5,6 +5,7 @@
 //  Created by Pottsmo on 16/4/21.
 //  Copyright © 2016年 Pottsmo. All rights reserved.
 //
+#import "MyFlowLayoout.h"
 #import "PhotoCell.h"
 #import "ViewController.h"
 #define ScreenW  [UIScreen mainScreen].bounds.size.width
@@ -20,9 +21,9 @@ static NSString *const ID = @"cell";
 //    [self.view setBackgroundColor:[UIColor grayColor]];
     // 流水布局:用于控件创建
     UICollectionViewFlowLayout *layout =({
-        layout = [[UICollectionViewFlowLayout alloc]init];
+        layout = [[MyFlowLayoout alloc]init];
         layout.itemSize = CGSizeMake(180, 180);
-        layout.minimumLineSpacing = 50;
+        layout.minimumLineSpacing = 40;
         layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         CGFloat margin = (ScreenW - layout.itemSize.width) * 0.5;
         layout.sectionInset = UIEdgeInsetsMake(0, margin, 0, margin);
