@@ -13,6 +13,8 @@
 		B13C05591CC8F40E00AE6729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13C05571CC8F40E00AE6729 /* Main.storyboard */; };
 		B13C055B1CC8F40E00AE6729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13C055A1CC8F40E00AE6729 /* Assets.xcassets */; };
 		B13C055E1CC8F40E00AE6729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13C055C1CC8F40E00AE6729 /* LaunchScreen.storyboard */; };
+		B13C05661CC8F8EB00AE6729 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13C05651CC8F8EB00AE6729 /* PhotoCell.xib */; };
+		B13C05691CC8F92300AE6729 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C05681CC8F92300AE6729 /* PhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B13C055A1CC8F40E00AE6729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B13C055D1CC8F40E00AE6729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B13C055F1CC8F40E00AE6729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13C05651CC8F8EB00AE6729 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		B13C05671CC8F92300AE6729 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		B13C05681CC8F92300AE6729 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,9 @@
 		B13C054E1CC8F40E00AE6729 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B13C05671CC8F92300AE6729 /* PhotoCell.h */,
+				B13C05681CC8F92300AE6729 /* PhotoCell.m */,
+				B13C05651CC8F8EB00AE6729 /* PhotoCell.xib */,
 				B13C05571CC8F40E00AE6729 /* Main.storyboard */,
 				B13C055A1CC8F40E00AE6729 /* Assets.xcassets */,
 				B13C055C1CC8F40E00AE6729 /* LaunchScreen.storyboard */,
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13C05661CC8F8EB00AE6729 /* PhotoCell.xib in Resources */,
 				B13C055E1CC8F40E00AE6729 /* LaunchScreen.storyboard in Resources */,
 				B13C055B1CC8F40E00AE6729 /* Assets.xcassets in Resources */,
 				B13C05591CC8F40E00AE6729 /* Main.storyboard in Resources */,
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13C05691CC8F92300AE6729 /* PhotoCell.m in Sources */,
 				B13C05561CC8F40E00AE6729 /* ViewController.m in Sources */,
 				B13C05531CC8F40E00AE6729 /* AppDelegate.m in Sources */,
 				B13C05501CC8F40E00AE6729 /* main.m in Sources */,
