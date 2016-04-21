@@ -19,7 +19,17 @@ static NSString *const ID = @"cell";
     [super viewDidLoad];
 //    [self.view setBackgroundColor:[UIColor grayColor]];
     // 流水布局:用于控件创建
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+    UICollectionViewFlowLayout *layout =({
+        layout = [[UICollectionViewFlowLayout alloc]init];
+        layout.itemSize = CGSizeMake(180, 180);
+        layout.minimumLineSpacing = 50;
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        CGFloat margin = (ScreenW - layout.itemSize.width) * 0.5;
+        layout.sectionInset = UIEdgeInsetsMake(0, margin, 0, margin);
+        
+        layout;
+    });
+ 
     
     
     // 添加collectionView,黑色
@@ -33,7 +43,7 @@ static NSString *const ID = @"cell";
         // 设置collectionView数据源
 //        collectionV.delegate = self;
         collectionV.dataSource =self;
-        
+        collectionV.showsHorizontalScrollIndicator = NO;
         collectionV;
         });
     

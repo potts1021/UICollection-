@@ -15,6 +15,7 @@
 		B13C055E1CC8F40E00AE6729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13C055C1CC8F40E00AE6729 /* LaunchScreen.storyboard */; };
 		B13C05661CC8F8EB00AE6729 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13C05651CC8F8EB00AE6729 /* PhotoCell.xib */; };
 		B13C05691CC8F92300AE6729 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C05681CC8F92300AE6729 /* PhotoCell.m */; };
+		B13C056C1CC9017500AE6729 /* MyFlowLayoout.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C056B1CC9017500AE6729 /* MyFlowLayoout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		B13C05651CC8F8EB00AE6729 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
 		B13C05671CC8F92300AE6729 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
 		B13C05681CC8F92300AE6729 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		B13C056A1CC9017500AE6729 /* MyFlowLayoout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFlowLayoout.h; sourceTree = "<group>"; };
+		B13C056B1CC9017500AE6729 /* MyFlowLayoout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFlowLayoout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				B13C055C1CC8F40E00AE6729 /* LaunchScreen.storyboard */,
 				B13C055F1CC8F40E00AE6729 /* Info.plist */,
 				B13C054F1CC8F40E00AE6729 /* main.m */,
+				B13C056A1CC9017500AE6729 /* MyFlowLayoout.h */,
+				B13C056B1CC9017500AE6729 /* MyFlowLayoout.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			files = (
 				B13C05691CC8F92300AE6729 /* PhotoCell.m in Sources */,
 				B13C05561CC8F40E00AE6729 /* ViewController.m in Sources */,
+				B13C056C1CC9017500AE6729 /* MyFlowLayoout.m in Sources */,
 				B13C05531CC8F40E00AE6729 /* AppDelegate.m in Sources */,
 				B13C05501CC8F40E00AE6729 /* main.m in Sources */,
 			);
